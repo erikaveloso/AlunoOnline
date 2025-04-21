@@ -53,8 +53,5 @@ public class AlunoService {
         //COM ALUNO TOTALMENTE EDITADO ACIMA
         //EU DEVOLVO ELE ATUALIZADO PARA O BD
         alunoRepository.save(alunoParaEditar);
-
-
-
     }
 }
