@@ -39,14 +39,10 @@ public class ProfessorService {
         if(professorDoBancoDeDados.isEmpty()){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Professor não encontado no banco de dados.");
         }
-
         Professor professorParaEditar = professorDoBancoDeDados.get();
         professorParaEditar.setNome(professor.getNome());
         professorParaEditar.setCpf(professor.getCpf());
         professorParaEditar.setEmail(professor.getEmail());
-
         professorRepository.save(professorParaEditar);
-
     }
-
 }
