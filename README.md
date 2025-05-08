@@ -12,3 +12,10 @@
 | Insomnia | DBeaver |
 |-------|-------|
 | ![Captura de tela 2025-04-23 085706](https://github.com/user-attachments/assets/ce34202f-58a7-4b00-aa04-e88f2b944c6f) | ![Captura de tela 2025-04-23 085651](https://github.com/user-attachments/assets/836857db-5d76-42a5-a552-de67d1952492) |
+
+### MatriculaAluno com trancar e adicionar Swagger
+| Insomnia | DBeaver | Swagger |
+|-------|-------|-------|
+| ![Captura de tela 2025-05-08 133555](https://github.com/user-attachments/assets/4bbb9014-98dc-45cf-8f0a-f78eaee9cde3) | ![Captura de tela 2025-05-08 133624](https://github.com/user-attachments/assets/3b00a96e-7ca5-42e7-a2a9-69417b84159d) | ![Captura de tela 2025-05-08 133753](https://github.com/user-attachments/assets/884fdda6-2970-43d2-8c64-a0658fb8426b) |
+
+
