@@ -1,3 +1,120 @@
+# 📚 Aluno Online - Sistema de Gerenciamento Acadêmico
+
+Projeto back-end desenvolvido com Spring Boot para gerenciar alunos, professores, disciplinas e matrículas em uma instituição de ensino.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- ✅ Java 17  
+- ✅ Spring Boot  
+- ✅ Spring Web  
+- ✅ Spring Data JPA  
+- ✅ H2 Database  
+- ✅ Maven  
+- ✅ Swagger (OpenAPI)  
+- ✅ Insomnia (para testes de API)
+
+---
+
+## 📂 Estrutura do Projeto
+
+src
+└── main
+├── java
+│ └── br.com.alunoonline.api
+│ ├── config
+│ │ └── SwaggerConfig.java
+│ ├── controller
+│ │ ├── AlunoController.java
+│ │ ├── DisciplinaController.java
+│ │ ├── MatriculaAlunoController.java
+│ │ └── ProfessorController.java
+│ ├── dtos
+│ │ ├── AtualizarNotasRequestDTO.java
+│ │ ├── DisciplinasAlunoResponseDTO.java
+│ │ └── HistoricoAlunoResponseDTO.java
+│ ├── enums
+│ │ └── MatriculaAlunoStatusEnum.java
+│ ├── model
+│ │ ├── Aluno.java
+│ │ ├── Disciplina.java
+│ │ ├── MatriculaAluno.java
+│ │ └── Professor.java
+│ ├── repository
+│ │ ├── AlunoRepository.java
+│ │ ├── DisciplinaRepository.java
+│ │ ├── MatriculaAlunoRepository.java
+│ │ └── ProfessorRepository.java
+│ └── service
+│ ├── AlunoService.java
+│ ├── DisciplinaService.java
+│ ├── MatriculaAlunoService.java
+│ └── ProfessorService.java
+└── resources
+
+---
+
+## ⚙️ Como Executar o Projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/alunoonline.git
+
+2. Abra no IntelliJ, Eclipse ou VS Code (com suporte a Java).
+
+3. Execute a aplicação:
+./mvnw spring-boot:run
+
+4. Acesse o Swagger para testar os endpoints:
+http://localhost:8080/swagger-ui/index.html
+
+---
+
+## 🚀 Funcionalidades
+
+👨‍🎓 Alunos
+Cadastro de alunos
+Consulta de todos os alunos
+Atualização de dados
+Remoção de aluno
+
+👩‍🏫 Professores
+Cadastro e gerenciamento de professores
+
+📘 Disciplinas
+Criação de disciplinas
+Associação com professores
+
+📝 Matrículas
+Realizar matrícula de alunos em disciplinas
+Atualizar notas e status da matrícula
+Visualizar histórico escolar
+
+---
+
+## 🧪 Testes de API
+Utilizar o Swagger para testes interativos via navegador.
+Também é possível testar usando o Insomnia ou Postman com os seguintes endpoints base:
+GET     /aluno
+POST    /aluno
+PUT     /aluno/{id}
+DELETE  /aluno/{id}
+...
+
+---
+
+## 🧑‍💻 Autora
+Desenvolvido por Érika
+📚 Curso: Sistemas para Internet
+🌐 Projeto acadêmico com fins educativos
+
+
+---
+
+
+## Entregas no decorrer do projeto:
+
 ### criarAluno
 | Insomnia | DBeaver |
 |-------|-------|
